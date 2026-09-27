@@ -1,0 +1,16 @@
+{
+  "release": "0.3.0",
+  "date": "2026-09-27",
+  "environment": "fresh public source snapshot; isolated temporary databases; no model credentials",
+  "backend_tests": 30,
+  "frontend_tests": 13,
+  "http_checks": 18,
+  "source_syntax": "passed",
+  "hardware_file_hashes_verified": 23,
+  "live_cloud_calls": 0,
+  "patient_data_included": false,
+  "hardware_tests": 42,
+  "calibration_refit_passed": true,
+  "calibration_id_matches": true,
+  "protocol_fixture": "Recovered from supplied raw capture; original fixture missing"
+}

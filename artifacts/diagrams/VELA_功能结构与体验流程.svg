@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1360" viewBox="0 0 1600 1360"><title>VELA 功能结构与体验流程</title><desc>授权采集声音、活动和作息线索，经AI整理与个人历史比较，连接主动记录、当下支持和每日回看；用户反馈用于调整后续支持。图中标明原型与待验证能力。</desc><rect width="1600" height="1360" fill="#FBF9FC"/>
+<text x="66" y="44" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="28" font-weight="600" fill="#755294">VELA</text>
+<text x="66" y="93" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="42" font-weight="600" fill="#302C40">少输入，记住日常；需要时，找回节奏。</text>
+<text x="68" y="159" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#706879">主动式 AI 节律伙伴  /  功能结构与用户体验</text>
+<rect x="1324" y="52" width="208" height="32" rx="8" fill="#EFE7F6" stroke="none" stroke-width="2"/>
+<text x="1336" y="57" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="16" font-weight="400" fill="#755294">预赛方案图</text>
+<text x="68" y="220" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#302C40">01  在用户授权下，积累生活线索</text>
+<rect x="68" y="268" width="470" height="124" rx="18" fill="#FFFFFF" stroke="#DCD5E4" stroke-width="2"/>
+<rect x="565" y="268" width="470" height="124" rx="18" fill="#FFFFFF" stroke="#DCD5E4" stroke-width="2"/>
+<rect x="1062" y="268" width="470" height="124" rx="18" fill="#FFFFFF" stroke="#DCD5E4" stroke-width="2"/>
+<text x="94" y="290" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="26" font-weight="600" fill="#302C40">声音</text>
+<text x="94" y="335" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#706879">说一句、导入录音 → 转成文字</text>
+<rect x="392" y="284" width="112" height="32" rx="8" fill="#E8F2ED" stroke="none" stroke-width="2"/>
+<text x="404" y="289" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="16" font-weight="400" fill="#357563">已接入</text>
+<text x="591" y="290" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="26" font-weight="600" fill="#302C40">腕部活动</text>
+<text x="591" y="335" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#706879">硬件采集动作，形成日常活动线索</text>
+<rect x="889" y="284" width="112" height="32" rx="8" fill="#F0EBF5" stroke="none" stroke-width="2"/>
+<text x="901" y="289" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="16" font-weight="400" fill="#755294">待联调</text>
+<text x="1088" y="290" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="26" font-weight="600" fill="#302C40">作息与感受</text>
+<text x="1088" y="335" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="20" font-weight="400" fill="#706879">补充睡眠、心情、精力，积累个人历史</text>
+<polyline points="303,392 303,424" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="800,392 800,424" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1297,392 1297,424" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="303,424 1297,424" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="800,424 800,453" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="800,453 794,443 806,443" fill="#B9ADC8"/>
+<rect x="68" y="453" width="1464" height="156" rx="21" fill="#F0EBF7" stroke="none" stroke-width="2"/>
+<text x="96" y="474" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#755294">02  AI 如何发挥作用</text>
+<text x="96" y="520" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="26" font-weight="600" fill="#302C40">整理成记录</text>
+<text x="96" y="563" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="20" font-weight="400" fill="#706879">ASR 转写 → 大模型提取事件与计划</text>
+<text x="598" y="520" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="26" font-weight="600" fill="#302C40">理解个人变化</text>
+<text x="598" y="563" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="20" font-weight="400" fill="#706879">统计模块对比个人基线，AI 汇总变化*</text>
+<text x="1100" y="520" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="26" font-weight="600" fill="#302C40">选择合适支持</text>
+<text x="1100" y="563" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="20" font-weight="400" fill="#706879">规则筛选方法，结合反馈调整推荐</text>
+<polyline points="521,543 563,543" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="563,543 553,537 553,549" fill="#B9ADC8"/>
+<polyline points="1023,543 1065,543" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1065,543 1055,537 1055,549" fill="#B9ADC8"/>
+<polyline points="800,609 800,639" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="303,639 1297,639" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="303,639 303,670" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="303,670 297,660 309,660" fill="#B9ADC8"/>
+<polyline points="800,639 800,670" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="800,670 794,660 806,660" fill="#B9ADC8"/>
+<polyline points="1297,639 1297,670" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1297,670 1291,660 1303,660" fill="#B9ADC8"/>
+<rect x="68" y="676" width="470" height="362" rx="22" fill="#FFFFFF" stroke="#DCD5E4" stroke-width="2"/>
+<rect x="88" y="696" width="430" height="63" rx="13" fill="#EFE7F7" stroke="none" stroke-width="2"/>
+<rect x="565" y="676" width="470" height="362" rx="22" fill="#FFFFFF" stroke="#DCD5E4" stroke-width="2"/>
+<rect x="585" y="696" width="430" height="63" rx="13" fill="#F8EAF0" stroke="none" stroke-width="2"/>
+<rect x="1062" y="676" width="470" height="362" rx="22" fill="#FFFFFF" stroke="#DCD5E4" stroke-width="2"/>
+<rect x="1082" y="696" width="430" height="63" rx="13" fill="#E8F2ED" stroke="none" stroke-width="2"/>
+<text x="104" y="709" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="27" font-weight="600" fill="#755294">功能一  主动记录</text>
+<text x="601" y="709" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="27" font-weight="600" fill="#A05475">功能二  当下支持</text>
+<text x="1098" y="709" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="27" font-weight="600" fill="#357563">功能三  每日回看</text>
+<text x="96" y="789" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#302C40">“昨晚睡得晚，今天出门买了饭。”</text>
+<text x="96" y="838" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="23" font-weight="400" fill="#302C40">AI 整理为可修改的生活记录</text>
+<text x="96" y="880" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#706879">分清：发生的事 / 我的感受 / 计划</text>
+<text x="96" y="927" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="22" font-weight="400" fill="#302C40">用户核对、修改后留下</text>
+<text x="96" y="979" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="19" font-weight="400" fill="#706879">进一步支持语音纠错与授权主动采集*</text>
+<text x="593" y="786" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#A05475">缓一缓</text>
+<text x="593" y="825" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#302C40">想停一停 → 去安静的地方坐一会儿</text>
+<text x="593" y="874" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#A05475">做一小步</text>
+<text x="593" y="913" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#302C40">难以开始 → 打开文档，写一个标题</text>
+<text x="593" y="979" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="19" font-weight="400" fill="#706879">可直接选择，无需先录音或分状态</text>
+<text x="1090" y="788" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#302C40">点选日历中的一天</text>
+<text x="1090" y="836" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#302C40">节律：睡眠、语速、情绪与精力*</text>
+<text x="1090" y="880" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#302C40">行动：用过哪些方法、完成哪些小步</text>
+<text x="1090" y="928" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="21" font-weight="400" fill="#302C40">保留开始 / 完成时间与本人反馈</text>
+<text x="1090" y="979" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="19" font-weight="400" fill="#706879">看见变化，也记住对自己有用的方式</text>
+<polyline points="303,1038 303,1071" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="800,1038 800,1071" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1297,1038 1297,1071" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="303,1071 1297,1071" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="800,1071 800,1095" fill="none" stroke="#B9ADC8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="800,1095 794,1085 806,1085" fill="#B9ADC8"/>
+<rect x="260" y="1095" width="1080" height="69" rx="17" fill="#EDE7F2" stroke="none" stroke-width="2"/>
+<text x="294" y="1115" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#755294">用户反馈：纠正记录 · 开始 / 完成 · 有帮助 / 不适合 → 调整后续支持</text>
+<polyline points="260,1129 36,1129 36,532 68,532" fill="none" stroke="#755294" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="68,532 58,526 58,538" fill="#755294"/>
+<polyline points="68,1200 1532,1200" fill="none" stroke="#DCD5E4" stroke-width="2" stroke-linejoin="round"/>
+<text x="68" y="1222" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="19" font-weight="600" fill="#357563">原型已跑通</text>
+<text x="220" y="1222" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="19" font-weight="400" fill="#706879">语音转写与记录整理、支持选择、行动留存、日历回看；睡眠与感受可手动补充。</text>
+<text x="68" y="1260" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="19" font-weight="600" fill="#755294">* 待接入验证</text>
+<text x="220" y="1260" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="19" font-weight="400" fill="#706879">硬件日常联动、语速与声音情绪分析、作息推断、AI 趋势总结与主动支持、语音纠错。</text>
+<text x="68" y="1310" dominant-baseline="text-before-edge" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="18" font-weight="400" fill="#706879">定位：日常节律支持，不作疾病分期或诊断；用户决定是否记录、是否采用建议。</text>
+</svg>

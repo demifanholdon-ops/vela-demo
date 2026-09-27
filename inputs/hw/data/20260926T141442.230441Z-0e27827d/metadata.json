@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-26T14:14:42.230620+00:00",
+  "user": {
+    "hand": "calibration",
+    "label": "six-face-hermes-restart"
+  },
+  "connections": [
+    {
+      "connection_id": 1,
+      "host_ns": 3610816215093451,
+      "packet_seq": 117,
+      "device": {
+        "boot_id": "8188c9e1",
+        "firmware": "wrist-recorder-v1",
+        "chip_id": 67,
+        "sensor": "BMI323",
+        "odr_hz": 100,
+        "accel_range_g": 4,
+        "gyro_range_dps": 500,
+        "hardware_filter": "ODR/4",
+        "batch_max": 10,
+        "time_method": "fifo_nominal_anchor",
+        "accel_unit": "raw_int16",
+        "gyro_unit": "raw_int16",
+        "board_id": "esp32s3-2859e8a1df7c",
+        "calibration_id": null,
+        "calibration_status": "not_applied",
+        "sample_flags": {
+          "invalid_placeholder": 1,
+          "near_accel_range": 2,
+          "near_gyro_range": 4,
+          "time_degraded": 8,
+          "time_estimated": 16
+        }
+      },
+      "metadata_updates": []
+    }
+  ],
+  "time_notes": "sample_est_us is device-estimated; host_ns is receive time"
+}

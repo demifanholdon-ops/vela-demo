@@ -1,0 +1,33 @@
+name: Verify VELA demo
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Backend tests
+        run: python -m unittest discover -s tests -v
+      - name: Isolated HTTP flow
+        run: python scripts/http_smoke.py
+      - name: UI logic and syntax
+        run: |
+          npm run check
+          npm test
+      - name: Verify original hardware files
+        run: python scripts/verify_hardware.py
+      - name: Hardware host tests
+        run: |
+          python -m pip install -e './inputs/hw/host[test]'
+          python -m pytest inputs/hw/host/tests -q
+      - name: Refit supplied calibration
+        run: |
+          mkdir -p runtime
+          python -m wrist_imu.cli calibrate --session inputs/hw/data/20260926T141442.230441Z-0e27827d --output runtime/refit.json

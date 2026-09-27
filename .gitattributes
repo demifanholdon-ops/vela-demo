@@ -1,0 +1,4 @@
+# Raw evidence must retain its exact bytes and original line endings.
+inputs/hw/data/** -text -diff
+inputs/*.txt -text
+inputs/*.json -text

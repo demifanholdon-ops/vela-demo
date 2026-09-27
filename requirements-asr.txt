@@ -1,0 +1,2 @@
+# Optional local ASR. Core app has no third-party dependencies.
+faster-whisper==1.2.1

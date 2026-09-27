@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#f986c0"><title>VELA 澜序 · 把今天留住</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./src/style.css"><link rel="stylesheet" href="./src/vela.css"></head><body>
+<main id="app" class="phone" aria-label="VELA 澜序"></main><div id="toast" role="status" aria-live="polite"></div>
+<dialog id="edit-dialog" aria-labelledby="edit-title"><form id="edit-form">
+<div class="dialog-top"><h2 id="edit-title">把这条记录改准确</h2><button type="button" data-close class="text-button">取消</button></div>
+<label for="entry-title">内容</label><textarea id="entry-title" name="title" maxlength="500" rows="4" required></textarea>
+<label for="entry-kind">它是一条</label><select id="entry-kind" name="kind"><option value="event">发生的事</option><option value="feeling">我的感受</option><option value="plan">一个计划</option></select>
+<label for="entry-date">记录日期（不自动推断事件日期）</label><input id="entry-date" type="date" name="date" required>
+<p class="form-note" id="edit-source"></p><p class="inline-error" id="edit-error" role="alert"></p>
+<button class="primary-button" type="submit">保存修改</button></form></dialog>
+<dialog id="settings-dialog" aria-labelledby="settings-title"><form id="settings-form">
+<div class="dialog-top"><h2 id="settings-title">对我有用的方法</h2><button type="button" data-close class="text-button">关闭</button></div>
+<p class="form-note">记下平时对你有帮助的做法。需要支持时，优先推荐你保存的方法。</p>
+<label for="plan-mode">我需要哪种帮助</label><select id="plan-mode" name="mode"><option value="high">放慢节奏，缓一缓</option><option value="low">开始行动，做一小步</option></select>
+<label for="plan-text">什么做法对我有帮助</label><input id="plan-text" name="text" maxlength="200" placeholder="比如：去安静的地方坐一会儿" required>
+<button class="primary-button" type="submit">保存这个方法</button><p id="plan-status" class="form-note" role="status"></p>
+<div id="plan-list"></div></form></dialog>
+<dialog id="help-dialog" aria-labelledby="help-title"><form id="help-form"><div class="dialog-top"><h2 id="help-title">需要帮助的时候</h2><button type="button" data-close class="text-button">关闭</button></div>
+<p class="form-note">这里没有实时值守。如果你正面临紧急危险，请立即联系当地急救服务或身边可信任的人。</p><label for="help-text">我的求助约定</label><textarea id="help-text" name="text" rows="5" maxlength="1000" placeholder="我想联系谁、怎样联系，或与专业人员约定的应对方式"></textarea><p class="form-note">仅保存在本机，不会自动通知任何人。</p><button class="primary-button" type="submit">保存约定</button><p id="help-status" class="form-note" role="status"></p></form></dialog>
+<dialog id="delete-dialog" aria-labelledby="delete-title"><div class="dialog-top"><h2 id="delete-title">删除这条记录？</h2></div><p class="form-note">这条记录和它的本地修改历史将被删除。</p><div class="button-row"><button class="secondary-button" data-cancel-delete>保留</button><button class="primary-button" data-confirm-delete>删除记录</button></div></dialog>
+<dialog id="rhythm-dialog" aria-labelledby="rhythm-title"><form id="rhythm-form">
+<div class="dialog-top"><h2 id="rhythm-title">补充每日节律</h2><button type="button" data-close class="text-button">关闭</button></div>
+<p id="rhythm-date" class="form-note"></p>
+<label for="sleep-hours">实际睡了多久（小时）</label><input id="sleep-hours" name="sleep_hours" type="number" min="0" max="24" step="0.1" placeholder="例如 7.5，不含清醒时间">
+<div class="rhythm-time-fields"><div><label for="sleep-start">大约几点入睡</label><input id="sleep-start" name="sleep_start" type="time"></div><div><label for="sleep-end">几点醒来</label><input id="sleep-end" name="sleep_end" type="time"></div></div>
+<label for="rhythm-mood">这一天的心情</label><select id="rhythm-mood" name="mood"><option value="">未记录 / 说不清</option><option value="-2">很低落</option><option value="-1">偏低落</option><option value="0">平静</option><option value="1">偏愉快</option><option value="2">很愉快</option></select>
+<label for="rhythm-energy">这一天的精力</label><select id="rhythm-energy" name="energy"><option value="">未记录 / 说不清</option><option value="-2">很低</option><option value="-1">偏低</option><option value="0">适中</option><option value="1">偏高</option><option value="2">很高</option></select>
+<p class="form-note">按醒来的日期记录睡眠。每项都可留空，清空已有值后保存即可移除。仅保存在本机，不发给模型。</p><p id="rhythm-error" class="inline-error" role="alert"></p><button class="primary-button" type="submit">保存记录</button>
+</form></dialog>
+<script type="module" src="./src/app.js"></script></body></html>
